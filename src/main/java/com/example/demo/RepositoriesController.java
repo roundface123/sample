@@ -20,7 +20,7 @@ public class RepositoriesController {
 
     @RequestMapping("/ping")
     public String ping() {
-        return "ping success";
+        return "ping success with your request";
     }
 
     @RequestMapping("/api/repositories")
